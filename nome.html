@@ -6,10 +6,23 @@
     <title>Aula 1</title>
 </head>
 <body>
-    <h1>Primeira aula JavaScript</h1>
-<h3>Data 19/02/2024</h3>
+    <h1>Segundda aula JavaScript</h1>
+<h3 id="d">Data 26/02/2024</h3>
+<button onclick="exibir()">Exibir</button><br>
 <script>
+function exibir(){
+    window.alert("Exibindo os resultados.");
+    document.write("JavaScript");
+    document.write("<br>");
+    document.write(5+5);
+    document.write("<br>");
+    let x = 3 + 2
+    document.write(x);
     console.log("teste!")
+    console.write("valor de x="+x);
+    let data = document.getElementById("d").innerHTML;
+    document.write(d);
+}
 </script>
 </body>
 </html>
