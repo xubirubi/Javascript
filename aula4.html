@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+</head>
+<button onclick="alterar()">trocar texto</button>
+<body style="font-size: 30px;">
+    <h2 id="titulo">Exemplo 2 - DOM</h2>
+    <p id="p1">TEXTO 1</p>
+    <p id="p2">TEXTO 2</p>
+   
+    <script>
+        function alterar() {
+       const elemento1 = document.getElementById("p1");
+       const elemento2 = document.getElementById("p2");
+       let troca = elemento2.innerHTML;
+       documet.getElementById("p2").
+       innerHTML = elemento1.innerHTML;
+       document.getElementById("p1").
+       innerHTML = troca;
+    }
+    </script>
+</body>
+</html>
