@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 6</title>
+</head>
+<body>
+    <button onclick="alterar();"> Alterar texto </button> <br>
+    <h2 class= "titulo"> Aula 6</h2>
+    <h3 class="texto">Pegando elementos pelo comando Query Selector</h3>
+    <h3 class="texto"> Aprendendo o comando <i> querySelectorAll.</i></h3>
+    <h3> Também usaremos looping.
+    </h3>
+   <script> 
+function alterar (){
+    const x = document.querySelectorAll ('h3.texto');
+   x[0].style.color = "blue";
+   x[1].style.color = "blue";
+}
+</script>
+</body>
+</html>
